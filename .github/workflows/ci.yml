@@ -22,7 +22,7 @@ jobs:
           - compiler: clang
             cc: clang-18
             cxx: clang++-18
-            packages: clang-18
+            packages: clang-18 gcc-14 g++-14
     env:
       VCPKG_ROOT: ${{ github.workspace }}/vcpkg
       VCPKG_DEFAULT_BINARY_CACHE: ${{ github.workspace }}/vcpkg-cache
